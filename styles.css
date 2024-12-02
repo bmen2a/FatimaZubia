@@ -1,0 +1,46 @@
+/* Styling for all header boxes */
+h1, h2, h3, h4, h5, h6 {
+    border: 2px solid #333; /* Dark border */
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Individual styles for each header */
+
+/* Largest heading */
+h1 {
+    background-color: #ffcccb; /* Light red */
+    font-size: 2.5em;
+}
+
+/* Second largest heading */
+h2 {
+    background-color: #f0e68c; /* Khaki */
+    font-size: 2em;
+}
+
+/* Medium heading */
+h3 {
+    background-color: #add8e6; /* Light blue */
+    font-size: 1.75em;
+}
+
+/* Smaller heading */
+h4 {
+    background-color: #90ee90; /* Light green */
+    font-size: 1.5em;
+}
+
+/* Even smaller heading */
+h5 {
+    background-color: #dda0dd; /* Plum */
+    font-size: 1.25em;
+}
+
+/* Smallest heading */
+h6 {
+    background-color: #f5deb3; /* Wheat */
+    font-size: 1em;
+}
