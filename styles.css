@@ -9,38 +9,44 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Individual styles for each header */
 
-/* Largest heading */
+/* Largest heading (Deep Purple) */
 h1 {
-    background-color: #ffcccb; /* Light red */
+    background-color: #5e4b8a; /* Dark Purple */
+    color: #ffffff; /* White text */
     font-size: 2.5em;
 }
 
-/* Second largest heading */
+/* Second largest heading (Medium Purple) */
 h2 {
-    background-color: #f0e68c; /* Khaki */
+    background-color: #7e6ca8; /* Medium Purple */
+    color: #ffffff;
     font-size: 2em;
 }
 
-/* Medium heading */
+/* Medium heading (Light Purple) */
 h3 {
-    background-color: #add8e6; /* Light blue */
+    background-color: #a392c5; /* Light Purple */
+    color: #ffffff;
     font-size: 1.75em;
 }
 
-/* Smaller heading */
+/* Smaller heading (Deep Blue) */
 h4 {
-    background-color: #90ee90; /* Light green */
+    background-color: #385880; /* Dark Blue */
+    color: #ffffff;
     font-size: 1.5em;
 }
 
-/* Even smaller heading */
+/* Even smaller heading (Medium Blue) */
 h5 {
-    background-color: #dda0dd; /* Plum */
+    background-color: #4a73a6; /* Medium Blue */
+    color: #ffffff;
     font-size: 1.25em;
 }
 
-/* Smallest heading */
+/* Smallest heading (Light Blue) */
 h6 {
-    background-color: #f5deb3; /* Wheat */
+    background-color: #739ac4; /* Light Blue */
+    color: #ffffff;
     font-size: 1em;
 }
