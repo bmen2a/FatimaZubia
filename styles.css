@@ -18,6 +18,22 @@ header {
     border-bottom: 2px solid #ff00ff;
 }
 
+
+/* Logo Image Styling (added blended border effect) */
+header img {
+    max-width: 400px;
+    height: auto;
+    border: 5px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Optional: subtle shadow for a smooth effect */
+    border-radius: 10px; /* Optional: rounded corners */
+    transition: all 0.3s ease; /* Optional: smooth transition for hover effect */
+}
+
+header img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Optional: shadow change on hover */
+}
+
+
 /* Tabs */
 .tabs {
     list-style-type: none;
