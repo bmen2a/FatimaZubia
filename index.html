@@ -3,15 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fatima Zubia</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking the CSS file -->
+    <title>EP Rollerland</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!-- Animate.css -->
 </head>
 <body>
-    <h1>Fatima Zubia</h1>
-    <h2>Welcome to Fatima Zubia's Page</h2>
-    <h3>About Fatima</h3>
-    <h4>Hobbies and Interests</h4>
-    <h5>Contact Information</h5>
-    <h6>Thank You for Visiting</h6>
+    <header>
+        <h1 class="animate__animated animate__fadeInDown">EP Rollerland</h1>
+    </header>
+
+    <nav>
+        <ul class="tabs">
+            <li data-tab="about" class="active">About Us</li>
+            <li data-tab="menu">Menu</li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Us Section -->
+        <div id="about" class="content active">
+            <h2 class="animate__animated animate__fadeInUp">About Us</h2>
+            <p class="animate__animated animate__fadeInUp">
+                Welcome to EP Rollerland, where fun meets excitement! Our roller rink is a perfect place for families, friends, and groups to enjoy a safe and entertaining environment. Come skate, dance, and make unforgettable memories!
+            </p>
+        </div>
+
+        <!-- Menu Section -->
+        <div id="menu" class="content">
+            <h2 class="animate__animated animate__fadeInUp">Menu</h2>
+            <ul class="menu-list animate__animated animate__fadeInUp">
+                <li>Lorem ipsum dolor sit amet .......................................... $0.00</li>
+                <li>Consectetuer adipiscing elit ........................................... $0.00</li>
+                <li>Tincidunt ut laoreet dolore ............................................... $0.00</li>
+                <li>Magna aliquam erat volutpat .......................................... $0.00</li>
+                <li>Ut wisi enim ad minim veniam ........................................ $0.00</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script> <!-- JavaScript file -->
 </body>
 </html>
